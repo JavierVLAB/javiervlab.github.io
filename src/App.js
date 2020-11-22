@@ -31,11 +31,11 @@ class App extends React.Component {
         <div className="App-intro">
           <Switch>
             <Route exact path="/home/" component={Home}/>
-            <Route path="/projects" render={() => <Portfolio data={data}/>}/>
-            <Route path="/resume" component={Resume}/>
+            <Route exact path="/projects" render={() => <Portfolio data={data}/>}/>
+            <Route exact path="/resume" component={Resume}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
-            <Route path="/" component={Home}/>
+            <Route exact path="/" component={Home}/>
 
             {
               data.projects.map(project => {
