@@ -1,3 +1,38 @@
+# Making Changes
+
+- make changes in the `source` branch
+
+```
+$ git push origin source
+```
+
+- Switch to `main` branch 
+
+```
+$ git checkout main 
+```
+
+- Merge from `source`
+
+```
+$ git merge source
+```
+
+- Switch to `source``
+
+```
+$ git checkout source 
+```
+
+-  Deploy
+
+```
+$ yarn deploy
+```
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
