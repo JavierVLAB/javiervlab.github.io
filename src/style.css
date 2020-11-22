@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');*/
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+/* -----------------*/
+
+.section-heading {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*-------------------*/
+
+
+
+
+/* Navigation Bar
+------------------------------------------- */
+
+
+.navbar {
+  margin: 10px 0px 0px 0px;
+  padding: 6px 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: "Montserrat Alternates", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #080808;
+  /*text-transform: uppercase;*/
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-color: transparent;
+}
+
+span.navbar-brand {
+  padding-left: 40px;
+  font-family: "Montserrat Alternates", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+button.navbar-toggler { 
+  margin: 0px 30px 0px 0px; 
+}
+
+
+.ml-auto {
+  padding-right: 40px;
+}
+
+/* Footer
+--------------------------------------- */
+
+footer {
+  position: sticky;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+
+
+/* Projects Page (Portfolio)
+-------------------------------------------------- */
+.project_square_images {
+  width:100%;
+}
+
+.project_square_image:after {
+  display: block;
+  padding-bottom: 100%;
+}
+
+.project_square {
+  padding: 10px;
+}
+
+.project_square_background {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.project_text{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  height: 100%;
+  
+  position: absolute;
+  padding-top: 30%;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 20 0 20;
+}
+
+.project-category{
+  color: #cccccc;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.project_text{
+  font-weight: 400;
+}
+
+.project_text:hover {
+  background-color: rgba(0,0,0, 0.6);
+  opacity:1;
+}
+
+.item_row {
+  margin-bottom: 25px;
+  margin-right: 30px;
+}
+
+p {
+  margin: 0px;
+  padding: 5px;
+}
+
+.project-container {
+  margin-bottom: 70px;
+}
+
+/* CV Resume
+******************************/
+
+h3.cv_section {
+  margin: 0px 0px 30px 0px;
+  width: 100%;
+  text-align: right;
+}
+
+.item_row p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 800.0px) {
+  h3.cv_section{
+    text-align: center;
+  }
+
+}
+.cv_div {
+
+}
+
+
+.item_row p {
+  letter-spacing: 0.2px;
+}
+
+
+.col_cv {
+  /*padding-right: 35px;*/
+}
+
+.cv_divider {
+  height: 1px;
+  background-color: #eee;
+  /*margin-left: 15px;
+  margin-right: 15px;*/
+  margin-bottom: 35px;
+  margin-top: 30px;
+  min-width: 750px;
+}
+
+.cv_divider_outer {
+  margin-bottom: 25px;
+}
+
+
+
+
+p.date {
+  /*display: inline;
+  text-align: right;
+  float:right;*/
+  font-weight: 500;
+  font-size: 1em;
+}
+
+p.title {
+  
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+p.location {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+p.institution {
+  /*display: inline;*/
+  font-weight: 700;
+  
+}
+
+p.text {
+
+  font-size: 0.9em;
+}
+
+/* Contact
+-------------------------------------------------- */
+
+.contact-heading {
+  font-size: 4em;
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.contact_links {
+  display: inline;
+}
+
+.social [class*="fa fa-"] {
+  display: inline-block;
+  width: 100%;
+  background-color: rgb(200, 200, 200);
+  border-radius: 100px;
+  color: rgb(50, 50, 50);
+  color: #fff;
+  height: 55px;
+  line-height: 55px;
+  width: 55px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.social_icons {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 100px;
+}
+
+.fa {
+  margin: 40px 5px 5px 5px;
+}
+
+i:hover.fa,
+i:active.fa,
+i:focus.fa {
+  /*color: rgb(51, 51, 51);*/
+  color: #cacaca;
+  text-decoration: none;
+  background-color: rgb(20, 20, 20);
+  /*background-color: #cacaca;*/
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
+  -ms-transition:     color 0.5s;
+  -o-transition:      color 0.5s;
+  transition:         color 0.5s;
+
+  -webkit-transition: background-color 0.5s;
+  -moz-transition:    background-color 0.5s;
+  -ms-transition:     background-color 0.5s;
+  -o-transition:      background-color 0.5s;
+  transition:         background-color 0.5s;
+}
+
+
+/* Services
+-------------------------------------------------- */
+
+.jumbotron {
+  min-height: 500px;
+  align-items: center;
+  /*padding-bottom: auto;*/
+}
+
+.jumbotron > p {
+  font-size: 1.5em;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  line-height: 1;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 500;
+}
+.marketing p {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: auto 0 auto 0;
+  }
+}
