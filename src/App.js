@@ -30,7 +30,7 @@ class App extends React.Component {
 
         <div className="App-intro">
           <Switch>
-            <Route exact path="/home" component={Home}/>
+            <Route exact path="/home/" component={Home}/>
             <Route path="/projects" render={() => <Portfolio data={data}/>}/>
             <Route path="/resume" component={Resume}/>
             <Route path="/about" component={About}/>
