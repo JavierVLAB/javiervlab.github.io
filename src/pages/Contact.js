@@ -1,11 +1,12 @@
 import React from 'react';
 //import ContactForm from '../components/Form.js';
 
+
 const IconLink = props => {
   const { name, url } = props;
   return <a aria-label={name} href={url} target="_blank" rel="noopener noreferrer">
-    <i className={`fa fa-${name} fa-2x`} aria-hidden="true"/>
-  </a>;
+          <i className={`fa fa-${name} fa-2x`} aria-hidden="true"/>
+        </a>;
 };
 
 const Contact = () => (

@@ -9,7 +9,7 @@ class About extends React.Component {
       
       <section id="about">
         <Jumbotron>
-          <h1>Hi, I'm Javi. I'm a creative technologist living in Madrid. I love
+          <h1>Sorry I'm Under Construction.... Hi, I'm Javi. I'm a creative technologist living in Madrid. I love
           make things with technology for: inspired others, created beauty and a better word...</h1>
 
          

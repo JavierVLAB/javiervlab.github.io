@@ -4,7 +4,7 @@ import Project from './Project'
 
 const GalleryPost = ({project}) => (
 
-	<div className="col-xs-12 col-sm-6 col-md-3 project_square">
+	<div className="col-xs-12 col-sm-6 col-md-4 project_square">
 		<div className="project_square_background">
 			<Link to={`project${project.id}`}>
 				<img alt={`${project.title}`} src={`${project.imageUrl}`} className="project_square_images"/>

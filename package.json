@@ -13,6 +13,7 @@
     "p5": "^1.1.9",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.1.0",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
@@ -24,7 +25,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b main -d build",
+    "mypredeploy": "git push origin source &&
+                    git checkout main
+                    git merge source
+                    git checkout source"
   },
   "eslintConfig": {
     "extends": [
