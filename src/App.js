@@ -36,13 +36,13 @@ class App extends React.Component {
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route exact path="/" component={Home}/>
-
-            {
+            
+            {/*
               data.projects.map(project => {
                 return <Route key={project.id} path={"/project" + project.id}
                   render={() => <Project project={project}/>}/>
               })
-            }
+            */}
             <Redirect to="/" />
           </Switch>
         </div>

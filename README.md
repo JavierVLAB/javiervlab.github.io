@@ -5,7 +5,7 @@
 
 # Making Changes
 
-- make changes in the `source` branch
+- Add and commit changes in the `source` branch
 
 ```
 $ git push origin source

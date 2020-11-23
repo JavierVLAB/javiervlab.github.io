@@ -11,7 +11,6 @@ const Portfolio = ({ data }) => (
       <div className="row">
         <div className="col-lg-12 text-center">
           <h1 className="section-heading">Projects</h1>
-          {/*<h3 className="section-subheading text-muted">Last years' projects</h3>*/}
         </div>
       </div>
       <div className="row project-container" id="portfolio-gallery">

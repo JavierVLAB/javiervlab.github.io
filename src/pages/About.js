@@ -9,31 +9,27 @@ class About extends React.Component {
       
       <section id="about">
         <Jumbotron>
-          <h1>Sorry I'm Under Construction.... Hi, I'm Javi. I'm a creative technologist living in Madrid. I love
-          make things with technology for: inspired others, created beauty and a better word...</h1>
+          <h1>Hi, I'm Javier.</h1>
+          <h1>A Software Developer based in Madrid.</h1>
+          <h2>Specialized on creating experiences and prototyping devices with technologies.</h2>
 
          
         </Jumbotron>
 
         <Jumbotron>
-          <p>I’ve been working in tech as a software engineer since 2014. Most recently, 
-          I took time off industry to earn my Master's at Harvard, where I focused on 
-          machine learning and visual computing. Before that, I built software at Sotheby's, 
-          Squarespace, Wayfair; and made art with code at Pioneer Works. In my spare time, 
-          you can catch me cooking, lifting, or saving imaginary worlds in Final Fantasy.</p>
 
-          <p>Check out my projects page or cv to get to know me a bit better, or email and say hi. 
-          Also, I'll be on the job hunt soon and am open to hearing about new opportunities!</p>
-
-          
+          <p>I'm Ph.D. in Physics that spent many years working across different technologies.
+          Lately, I develop myself in more creative technologies such as Digital Fabrication, 
+          Physical Computing and coding. Next are detailed some of my offering services</p>
           
         </Jumbotron>
 
         <div className="container marketing">
         <div className="row featurette">
           <div className="col-md-7">
-            <h2 className="featurette-heading">Desarrollo Web<br/><span className="text-muted">It’ll blow your mind.</span></h2>
-            <p className="lead">Desarrollo web, programacion
+            <h2 className="featurette-heading">Software Development</h2>
+            <p className="lead">Recently, I develop my skill in coding oriented in web development. I offer
+            development of website based in
             </p>
           </div>
           <div className="col-md-5">
