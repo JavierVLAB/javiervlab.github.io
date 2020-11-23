@@ -25,11 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b main -d build",
-    "mypredeploy": "git push origin source &&
-                    git checkout main
-                    git merge source
-                    git checkout source"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
