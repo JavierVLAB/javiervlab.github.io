@@ -13,7 +13,7 @@ class NavigationBar extends React.Component {
       <Navbar.Collapse id="bs-example-navbar-collapse-1">
         <Nav className="navbarRB ml-auto">
           <Nav.Link href="/#/home">Home</Nav.Link>
-          <Nav.Link href="/#/about" >About</Nav.Link>
+          <Nav.Link href="/#/home" >About</Nav.Link>
           <Nav.Link href="/#/projects" >Projects</Nav.Link>
           
           {/*<NavDropdown title="Services" id="collasible-nav-dropdown">
