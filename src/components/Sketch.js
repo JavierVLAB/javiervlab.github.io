@@ -87,6 +87,9 @@ class Sketch extends React.Component {
           balls[i].update();
           //balls[i].display();
         }
+        //the first ball is the mouse
+        balls[0].pos.x = p.mouseX - p.width/2;
+        balls[0].pos.y = p.mouseY - p.height/2;
         
         show3();
         
@@ -96,14 +99,14 @@ class Sketch extends React.Component {
         p.push();
         //p.translate(p.mouseX,p.mouseY);
         p.translate(p.width/2,p.height/2);
-        p.rotate(p.frameCount*0.001);
+        //p.rotate(p.frameCount*0.001);
 
         for (let i = balls.length - 1; i > 0; i--){
           for (let j = 0; j < i; j++){
             let d = p5.Vector.dist(balls[i].pos, balls[j].pos);                       
             if(d < 80 && d > 20){
               //random(1) < 0.2 ? stroke(0,100) : stroke(255, 10);
-                 
+              j === 0 ? p.stroke(255,0,0,20) : p.stroke(0,10); //only the mouse is red, first ball
               p.line(balls[i].pos.x,balls[i].pos.y,
                    balls[j].pos.x,balls[j].pos.y);
             }
@@ -114,7 +117,7 @@ class Sketch extends React.Component {
 
       function updatePosition(){
 
-        for (let i = 0; i < balls.length; i++){
+        for (let i = 1; i < balls.length; i++){
           balls[i].speed.set(p.random(-2,2),p.random(-2,2));
         } 
       
