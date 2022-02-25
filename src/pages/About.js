@@ -37,7 +37,7 @@ class About extends React.Component {
           </div>
         </div>
 
-        <hr className="featurette-divider" />
+        {/*<hr className="featurette-divider" />
 
         <div className="row featurette">
           <div className="col-md-7 order-md-2">
@@ -53,7 +53,7 @@ class About extends React.Component {
                     <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
             </svg>
           </div>
-        </div>
+        </div>*/}
       </div>
 
       </section>
