@@ -1,5 +1,12 @@
 {
   "Work Experience": [
+    {"title": "R+D Manager", 
+      "date": "Mar 2022 - Mar 2023", 
+      "institution": "Addvance Manufacturing Technologies", 
+      "location": "Madrid - Spain", 
+      "text": "- Industrial automation of additive manufacturing on demand\n - Additive manufacturing\n - Internet of things\n - Software development\n - Implementation of prediction tools with artificial intelligence\n - Implementation of computer vision solutions for object and defect detection", 
+      "tags": ""
+    },
     {"title": "Digital Fabrication Mentor", 
       "date": "Nov 2021 - Dic 2021", 
       "institution": "Medialab-Prado", 
