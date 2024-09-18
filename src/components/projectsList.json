@@ -189,6 +189,15 @@
 
 		,{
 			"id" : 24,
+			"title": "Ecovidrio - Car container",
+			"page": "./things/MyMake.html",
+			"imageUrl": "../img/ecovidrio01.png",
+			"date": "Jun 2023",
+			"tags": ["AI","React","Python"],
+			"category": "Creative Tech"}
+
+		,{
+			"id" : 25,
 			"title": "Art Vivant",
 			"page": "./things/MyMake.html",
 			"imageUrl": "../img/rembrandtDarkRoom.png",
