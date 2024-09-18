@@ -195,6 +195,15 @@
 			"date": "Jun 2023",
 			"tags": ["AI","React","Python"],
 			"category": "Creative Tech"}
+		
+		,{
+			"id" : 24,
+			"title": "MicroFactory - Addvance 3D",
+			"page": "./things/MyMake.html",
+			"imageUrl": "../img/addvance3d.png",
+			"date": "2022-2023",
+			"tags": ["AI","Javascript","Python"],
+			"category": "Creative Tech"}
 
 		,{
 			"id" : 25,
