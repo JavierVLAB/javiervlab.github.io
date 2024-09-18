@@ -187,5 +187,14 @@
 			"tags": ["Arduino","Python","RaspberryPi"],
 			"category": "Creative Tech"}
 
+		,{
+			"id" : 24,
+			"title": "Art Vivant",
+			"page": "./things/MyMake.html",
+			"imageUrl": "../img/rembrandtDarkRoom.png",
+			"date": "Jun 2024",
+			"tags": ["AI","React","Python"],
+			"category": "Creative Tech"}
+
 	]
 }
